@@ -1,0 +1,327 @@
+/*--------------MENU NAVBAR-------------------------*/
+@font-face {
+    font-family: "Rocket-Vintage";
+    src: url(../font/Rocket\ Vintage.ttf);
+}
+body {
+    font-family: 'Advent Pro', sans-serif;
+    background: url("../img/background.jpg");
+}
+.navbar {
+    background-color: #727272;
+}
+.navbar-brand {
+    font-size: 80px;
+}
+.nav-link {
+    font-size: 40px;
+}
+.navbar-toggler {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: #383a3f;
+}
+/*--------------------------FOOTER------------------------*/
+/*Footer*/
+footer {
+    background-color: #333333;
+    height: auto;
+}
+.footer-adress {
+    color: #FFF;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 25px;
+    letter-spacing: 1px;
+}
+.footer-social {
+    margin-top: 50px;
+}
+.payment img {
+    height: 50px;
+    margin: 0 20px;
+}
+.social-link {
+    font-size: 50px;
+    right: 20px;
+}
+.social-link a {
+color: black;
+}    
+.footer-social img {
+    margin-bottom: 30px;
+}
+/*-----------------CSS JULIEN--------------------------------*/
+/*MENU*/
+.main-menu {
+    padding-top: 150px;
+}
+.menu-body img {
+    margin-bottom: 10px;
+}
+.titlePage {
+    width: 100%;
+    background-color: #FFF;
+    text-align: center;
+    color: #727272;
+    font-size: 50px;
+    margin: 10px 0 10px 0;
+    border-radius: 10px;
+}
+.titleMenu {
+    width: 100%;
+    background-color: #727272;
+    text-align: center;
+    color: #FFF;
+    font-size: 30px;
+    margin: 10px 0 10px 0;
+    border-radius: 10px;
+}
+.no-padding > [class*="imageMenu"] {
+    padding-right:0;
+    padding-left:0;
+    }
+@media screen and (max-width: 576px) {
+    .navbar-brand {
+        font-size: 60px;
+    }
+    .imgPay {
+        width: 100px;
+        height: 50px;
+    }
+    .social-link i {
+        width: 21px;
+        height: 30px;
+        margin: 0 10px 0 10px;
+    }
+    .imageMenu {
+        width: 50%;
+    }
+  }
+/*-----------------CSS JESSICA--------------------------------*/
+  .main-index {
+    background: url("../img/background.jpg");
+    padding-top: 170px;
+}
+.opinion {
+    color: white;
+    background-color: #6a6262;
+    border: 3px #6a6262 outset;
+    overflow: auto;
+    border-radius: 10px;
+    overflow: auto;
+    height: 200px;
+}
+.opinion p{
+    padding-bottom: 1%;
+ } 
+.textimg {
+    color: white;
+    background-color: #6a6262;
+    border: 3px #6a6262 outset;
+    border-radius: 5px;
+} 
+#leaveOpinion {
+    color: white;
+    background-color: #6a6262;
+    border: 3px #6a6262 outset;
+    border-radius: 5px;
+}
+ul li {
+    list-style-type: none;
+}
+button {
+    color: white;
+    background-color: #383a3f;
+    border-radius: 5px;
+    float: right;
+}
+input {
+    border-radius: 5px;
+}
+h3 {
+    color: white;
+}
+.main-index div {
+    margin: 0 auto;
+}
+/*-----------------CSS KAMEL--------------------------------*/
+.main-contact {
+    padding: 15px;
+    background: url("../img/background.jpg");
+    border-bottom:  1px solid black;
+    border-top: 3px solid black;
+}
+#coordinated {
+    color: white;
+    font-weight: bold;
+    padding: 50px;
+    padding-top: 70px;
+    margin-top: 60px;
+}
+li{
+    margin-top:30px;
+    font-size:25px;
+}
+#title2 {
+    text-align: center;
+    color: white;
+    background-color: #bebbb9; 
+    border-radius: 10px; 
+    padding: 10px;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+#booking {
+    background-color: #908d8c;
+    width: 100%;
+    border-radius: 20px;
+}
+#booking ol li {
+    list-style-type: none;
+    color: white;
+    margin:0px;
+}
+#booking label {
+    width: 30%;
+    margin:0px;
+}
+#booking input {
+    width: 100%;
+    border-radius: 5px;
+}
+#booking input {
+    border-radius: 5px;
+}
+#coordinated ul {
+    display: flex;
+    width: 100%;
+}
+#coordinated ul li {
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    background-color: #6a6262;
+}
+#booking ol {
+    padding-left:0px;
+}
+@media screen and (min-width: 601px) {
+    #booking li {
+        font-size: 1.2em;
+    }/*
+    p {
+        font-size: 1.2em;
+    }*/
+    #booking input {
+        width: 94%;
+    }
+}
+@media screen and (max-width: 600px) {
+    #booking li {
+        font-size: 0.8em;
+    }/*
+    p {
+        font-size: 0.8em;
+    }*/
+    #booking input {
+        width: 80%;
+    }
+}
+/*-----------------CSS FRANCOIS--------------------------------*/
+
+@media screen and (max-width:480px) {
+    .main-accueil {
+        margin-top: 116px;
+        padding: 20px;
+        background: url("../img/background.jpg");
+        border-bottom:  1px solid black;
+        border-top: 3px solid black;
+    }
+    .container {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        height: 100%;
+    }
+    .main-body img {
+        height: 120px;
+        float: left;
+    }
+    .main-item-1 {
+        width: 45%;
+    }
+    .main-item-2 {
+        width: 45%;
+    }
+    .main-item-3 {
+        width: 45%;
+    }
+    .main-item-4 {
+        width: 45%;
+    }
+    .main-item-5 {
+        width: 45%;
+    }
+    .main-item-6 {
+        width: 45%;
+    }
+    .main-item-7 {
+        width: 45%;
+    }
+    .main-item-8 {
+        width: 45%;
+    }
+    .main-item-9 {
+        width: 45%;
+    }
+    }
+@media screen and (min-width:480px) and (max-width: 2000px) {
+    .main-accueil {
+        margin-top: 120px;
+        padding: 75px;
+        background: url("../img/background.jpg");
+        border-bottom:  1px solid black;
+        /*border-top: 3px solid black;*/
+    }
+    .main-body {
+        display: flex;
+    }
+    .main-body img {
+        height: 290px;
+        float: left;
+    }
+    .main-item-1 {
+        width: 35%;
+    }
+    .main-item-2 {
+        width: 37%;
+    }
+    .main-item-3 {
+        width: 28%;
+    }
+    .main-item-4 {
+        width: 33.3%;
+    }
+    .main-item-5 {
+        width: 33.3%;
+    }
+    .main-item-6 {
+        width: 33.3%;
+    }
+    .main-item-7 {
+        width: 33.3%;
+    }
+    .main-item-8 {
+        width: 25%;
+    }
+    .main-item-9 {
+        width: 41.7%;
+    }
+}

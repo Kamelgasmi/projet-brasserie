@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+    <html lang="FR">
+        <head>
+            <meta charset="UTF-8" />
+            <!--BOOTSTRAP-->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+            <!--CSS-->
+            <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+            <!--FONTS-->
+            <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@400;700&display=swap" rel="stylesheet" />
+            <script src="https://kit.fontawesome.com/d55c1558f7.js" crossorigin="anonymous"></script>
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <title>Galerie - Brasserie La Manu</title>
+        </head>
+        <body>
+            <!--NAVBAR-->
+            <header>
+                <nav class="navbar navbar-dark fixed-top navbar-expand-lg">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">La Manu</a>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Accueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="menu.html">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Reservation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="galerie.html">Galerie</a>
+                        </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+        <!--MAIN-->
+        <main class="main-index">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-xs-12 text-left">
+                        <img src="assets/img/sharecheese.jpg" alt="repas" class="img-thumbnail" width="500" height="500">
+                    </div>
+                    <div class="col-8 my-3 px-2 text-center">
+                        <p class="textimg">Je n'avais aucune attente par rapport à ce restaurant puisque j'avais entendu des commentaires mitigés. 
+                            Je m'y suis rendue sur l'heure du dîner avec une amie et j'ai été agréablement surprise. Les murs de pierres donnent une ambiance chaleureuse et chic au restaurant de taille restreinte. 
+                            J'ai été emballée par chacun des services ! Cuisine simple mais efficace. Les saveurs étaient au rendez-vous ! 
+                            Agréblement surprise, je recommande. Leslie.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-xs-12 text-right">
+                        <img src="assets/img/beerguy.jpg" alt="serveur" class="img-thumbnail" width="500" height="500">
+                    </div>
+                <div class="col-8 my-3 px-2 text-center">
+                    <p class="textimg">J'ai découvert cette brasserie récemment. Une belle découverte. 
+                        Bouffe d'excellente qualité et préparée avec soin et décor drôlement chaleureux. 
+                        Le service est également parfait, juste ce qu'il faut. 
+                        Bref, on se sent considéré à tout point de vue !!
+                        Je recommence bientôt c'est assuré. Mathis.
+                    </p>
+                </div>
+            </div>
+                <div class="row">
+                    <div class="col-lg-12 col-xs-12 text-left">
+                        <img src="assets/img/peoples.jpg" alt="clients" class="img-thumbnail" width="500" height="500">
+                    </div>
+                    <div class="col-8 my-3 px-2 text-center">
+                        <p class="textimg">Le service est tellement impeccable ! 
+                            Courtois et tres professionnel ! Le repas plus que délicieux. 
+                            On adore et on veut toujours y retourner ! Pour y être allée à plusieurs reprises, impossible de faire un mauvais choix dans le menu ! 
+                            Même avec les cocktails et les vins ! Rapport qualité prix excellent !
+                            Merci encore ! Isabelle.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row"> 
+                    <div class="col-12 my-5">
+                        <h3>Commentaires :</h3>
+                        <div class="opinion">      
+                            <p>Didier : Magnifique restaurant, je reviendrais seul ou accompagné !</p>
+                            <p>Martin : Service rapide, de grands choix de bières.</p>
+                            <p>Anonyme : J'y ai très bien mangé, l'ambiance et bonne et les prix abordable, je recommande !!!</p>
+                            <p>Laura : Le saumon était très bon, je recommande.</p>
+                            <p>Anonyme : Bof !</p>
+                            <p>Jean-Pierre : Pas mal du tout, on mange très bien, mais un peu cher.</p>
+                            <p>Justine : Endroit bien décoré et relaxant.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 col-xs-12 mb-5">
+                        <form>
+                            <fieldset id="leaveOpinion">
+                                <legend>Votre avis nous intéresse :</legend>
+                                    <label for="opinion">Qu'avez-vous pensé de notre brasserie</label> ? <input type="text" name="opinion" id="opinion"/>
+                                    <label for="firstname"></label><input type="text" name="firstname" id="firstname" placeholder="Prénom"/>
+                                    <button type="submit">Soumettre</button>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+          <!--FOOTER-->
+          <footer class="container-fluid">
+            <div class="row">
+                <div class="footer-adress col-6">
+                    <p>Lundi 11:00-01:00</p>
+                    <p>Mardi 11:00-02:00</p>
+                    <p>Mercredi 11:00-01:00</p>
+                    <p>Jeudi 11:00-01:00</p>
+                    <p>Vendredi 11:00-01:00</p>
+                    <p>Samedi 15:00-02:00</p>
+                    <p>Dimanche 15:00-01:00</p>
+                </div>
+            
+                <div class="col-6">
+                    <div class="row">
+                        <div class="footer-social col-12 text-center">
+                            <div class="payment">
+                                <img src="assets/img/payment-card.png" alt="carte de payment" title="carte de payments" class="imgPay">
+                                <img src="assets/img/payment-cheque.png" alt="cheque vacance" title="cheque vacance" class="imgPay">
+                            </div>
+                        </div>
+                        <div class="social-link col-12 text-center">
+                            <a href="#"><i class="fab fa-facebook-square"></i></a>
+                            <a href="#"><i class="fab fa-twitter-square"></i></a>
+                            <a href="#"><i class="fab fa-instagram-square"></i></a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+
+</html>

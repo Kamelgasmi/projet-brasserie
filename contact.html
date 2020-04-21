@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="FR">
+    <head>
+        <meta charset="UTF-8" />
+        <!--BOOTSTRAP-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!--CSS-->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+        <!--FONTS-->
+        <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@400;700&display=swap" rel="stylesheet" />
+        <script src="https://kit.fontawesome.com/d55c1558f7.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initialscale=1.0">
+        <title>Réservations - Brasserie La Manu</title>
+    </head>
+        <!--NAVBAR-->
+        <header>
+            <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#index.html">La Manu</a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Reservation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="galerie.html">Galerie</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main class="main-contact">
+            <div class="container-fluid ">
+                <div class="row">
+                    <div id="coordinated" class="col-lg-4  col-md-4  col-sm-6 text-white">
+                        <li>Adresse : </br>Brasserie La Manu, <br>1435 BD chambone, <br>60400 Noyon</li>
+                        <li>Téléphone : 03.44.43.42.42</li>
+                        <li>Mail : contact@lamanu.com</li>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div id="title2" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-white  ">
+                    <h2>Réservation en ligne</h2>
+                    </div>
+                </div>
+            </div>
+            <div id="form" class="container-fluid">
+                <div class="row">
+                    <form id="booking" class="col-lg-8 offset-lg-2 col-sm-12 text-white">
+                        <ol>
+                            <li><label for="lastname">Nom</label><input type="text" name="lastname" id="lastname" placeholder="Nom" /></li>
+                            <li><label for="email">Adresse mail</label><input type="email" name="email" id="email" placeholder="Adresse mail" /></li>
+                            <li><label for="phone">Téléphone</label><input type="tel" name="phone" id="phone" placeholder="Téléphone" /></li>
+                            <li><label for="date">Date</label><input type="date" name="date" id="date" placeholder="Date" /></li>
+                            <li><label for="hour">Heure</label>
+                                <select name="hour">
+                                    <OPTION>11h00
+                                    <OPTION>12h00
+                                    <OPTION>13h00
+                                    <OPTION>18h00
+                                    <OPTION>19h00
+                                    <OPTION>20h00
+                                    <OPTION>21h00
+                                    <OPTION>22h00
+                                    <OPTION>23h00
+                                </select>
+                            </li>
+                            <li><label for="number">Nombre de personnes</label><input type="text" name="number" id="number" placeholder="Nombre de personnes" /></li>
+                            <li><label for="information">Informations complémentaires</label><input type="text" name="information" id="information" ></input></li>
+                        </ol>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer class="container-fluid">
+            <div class="row">
+                <div class="footer-adress col-6">
+                    <p>Lundi 11:00-01:00</p>
+                    <p>Mardi 11:00-02:00</p>
+                    <p>Mercredi 11:00-01:00</p>
+                    <p>Jeudi 11:00-01:00</p>
+                    <p>Vendredi 11:00-01:00</p>
+                    <p>Samedi 15:00-02:00</p>
+                    <p>Dimanche 15:00-01:00</p>
+                </div>
+                <div class="col-6">
+                    <div class="row">
+                        <div class="footer-social col-12 text-center">
+                            <div class="payment">
+                                <img src="assets/img/payment-card.png" alt="carte de payment" title="carte de payments" class="imgPay">
+                                <img src="assets/img/payment-cheque.png" alt="cheque vacance" title="cheque vacance" class="imgPay">
+                            </div>
+                        </div>
+                        <div class="social-link col-12  text-center">
+                            <a href="#"><i class="fab fa-facebook-square"></i></a>
+                            <a href="#"><i class="fab fa-twitter-square"></i></a>
+                            <a href="#"><i class="fab fa-instagram-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    </body>
+</html>
